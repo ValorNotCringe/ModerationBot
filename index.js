@@ -7,9 +7,9 @@ client.aliases = new Discord.Collection();
 client.db = require("quick.db");
 
 client.on("ready", async () => {
-  console.log(`Yay!! Moderation Bot has been completed and ready to use!! Coded by ꧁༒☬☆•Valor•☆☬༒꧂#1234`);
+  console.log(`Yo boii!! Moderation bot has been deployed!! Coded by ꧁༒☬☆•Valor•☆☬༒꧂#1234`);
   client.user
-    .setActivity(`Moderation commands`, { type: "LISTENING" })
+    .setActivity(`My Owner Valor`, { type: "LISTENING" })
     .catch(error => console.log(error));
 });
 
@@ -84,4 +84,4 @@ client.on("message", async message => {
 
 client.login(Token);
 
-//Bot Coded by ꧁༒☬☆•Valor•☆☬༒꧂#1234 please don't share without credits 
+//Bot Coded by ꧁༒☬☆•Valor•☆☬༒꧂#1234 DONOT share WITHOUT credits!!
